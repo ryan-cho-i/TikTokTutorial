@@ -24,6 +24,7 @@
 		BD9F022B2AFDEE5400AB8AA8 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F022A2AFDEE5400AB8AA8 /* UserStatView.swift */; };
 		BD9F022D2AFDF25700AB8AA8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F022C2AFDF25700AB8AA8 /* Post.swift */; };
 		BD9F02322AFDF2B700AB8AA8 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02312AFDF2B700AB8AA8 /* FeedViewModel.swift */; };
+		BD9F02362AFDF9FC00AB8AA8 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02352AFDF9FC00AB8AA8 /* CustomVideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		BD9F022A2AFDEE5400AB8AA8 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		BD9F022C2AFDF25700AB8AA8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		BD9F02312AFDF2B700AB8AA8 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		BD9F02352AFDF9FC00AB8AA8 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 		BD9F020E2AFDD98100AB8AA8 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				BD9F02352AFDF9FC00AB8AA8 /* CustomVideoPlayer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9F021C2AFDE58B00AB8AA8 /* ExploreView.swift in Sources */,
+				BD9F02362AFDF9FC00AB8AA8 /* CustomVideoPlayer.swift in Sources */,
 				BD9F02202AFDE8A900AB8AA8 /* NotificationCell.swift in Sources */,
 				BD9F02242AFDEC6300AB8AA8 /* PostGridView.swift in Sources */,
 				BD9F022B2AFDEE5400AB8AA8 /* UserStatView.swift in Sources */,
