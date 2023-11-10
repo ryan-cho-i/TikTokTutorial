@@ -16,6 +16,8 @@
 		BD9F02172AFDE16400AB8AA8 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02162AFDE16400AB8AA8 /* FeedCell.swift */; };
 		BD9F02192AFDE57B00AB8AA8 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02182AFDE57B00AB8AA8 /* UserCell.swift */; };
 		BD9F021C2AFDE58B00AB8AA8 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F021B2AFDE58B00AB8AA8 /* ExploreView.swift */; };
+		BD9F021E2AFDE89500AB8AA8 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F021D2AFDE89500AB8AA8 /* NotificationsView.swift */; };
+		BD9F02202AFDE8A900AB8AA8 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F021F2AFDE8A900AB8AA8 /* NotificationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		BD9F02162AFDE16400AB8AA8 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		BD9F02182AFDE57B00AB8AA8 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		BD9F021B2AFDE58B00AB8AA8 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		BD9F021D2AFDE89500AB8AA8 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		BD9F021F2AFDE8A900AB8AA8 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 		BD9F020D2AFDD97F00AB8AA8 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				BD9F021D2AFDE89500AB8AA8 /* NotificationsView.swift */,
+				BD9F021F2AFDE8A900AB8AA8 /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -281,12 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9F021C2AFDE58B00AB8AA8 /* ExploreView.swift in Sources */,
+				BD9F02202AFDE8A900AB8AA8 /* NotificationCell.swift in Sources */,
 				BD9F02152AFDE01B00AB8AA8 /* FeedView.swift in Sources */,
 				BD9F02172AFDE16400AB8AA8 /* FeedCell.swift in Sources */,
 				BD9F02192AFDE57B00AB8AA8 /* UserCell.swift in Sources */,
 				BD9F01F72AFDD84D00AB8AA8 /* ContentView.swift in Sources */,
 				BD9F01F52AFDD84D00AB8AA8 /* TikTokTutorialApp.swift in Sources */,
 				BD9F02132AFDDA5800AB8AA8 /* MainTabView.swift in Sources */,
+				BD9F021E2AFDE89500AB8AA8 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
