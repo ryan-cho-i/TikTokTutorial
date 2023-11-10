@@ -22,6 +22,8 @@
 		BD9F02242AFDEC6300AB8AA8 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02232AFDEC6300AB8AA8 /* PostGridView.swift */; };
 		BD9F02262AFDEC7100AB8AA8 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02252AFDEC7100AB8AA8 /* ProfileHeaderView.swift */; };
 		BD9F022B2AFDEE5400AB8AA8 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F022A2AFDEE5400AB8AA8 /* UserStatView.swift */; };
+		BD9F022D2AFDF25700AB8AA8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F022C2AFDF25700AB8AA8 /* Post.swift */; };
+		BD9F02322AFDF2B700AB8AA8 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02312AFDF2B700AB8AA8 /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		BD9F02232AFDEC6300AB8AA8 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		BD9F02252AFDEC7100AB8AA8 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		BD9F022A2AFDEE5400AB8AA8 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		BD9F022C2AFDF25700AB8AA8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BD9F02312AFDF2B700AB8AA8 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 		BD9F02042AFDD88100AB8AA8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BD9F022C2AFDF25700AB8AA8 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,8 +225,9 @@
 		BD9F02112AFDD9B200AB8AA8 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				BD9F02142AFDE01B00AB8AA8 /* FeedView.swift */,
-				BD9F02162AFDE16400AB8AA8 /* FeedCell.swift */,
+				BD9F02302AFDF28400AB8AA8 /* Service */,
+				BD9F022F2AFDF28000AB8AA8 /* View */,
+				BD9F022E2AFDF27E00AB8AA8 /* ViewModel */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -242,6 +248,30 @@
 				BD9F02212AFDEBE600AB8AA8 /* CurrentUserProfileView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BD9F022E2AFDF27E00AB8AA8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F02312AFDF2B700AB8AA8 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD9F022F2AFDF28000AB8AA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F02142AFDE01B00AB8AA8 /* FeedView.swift */,
+				BD9F02162AFDE16400AB8AA8 /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD9F02302AFDF28400AB8AA8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +349,8 @@
 				BD9F02242AFDEC6300AB8AA8 /* PostGridView.swift in Sources */,
 				BD9F022B2AFDEE5400AB8AA8 /* UserStatView.swift in Sources */,
 				BD9F02152AFDE01B00AB8AA8 /* FeedView.swift in Sources */,
+				BD9F02322AFDF2B700AB8AA8 /* FeedViewModel.swift in Sources */,
+				BD9F022D2AFDF25700AB8AA8 /* Post.swift in Sources */,
 				BD9F02172AFDE16400AB8AA8 /* FeedCell.swift in Sources */,
 				BD9F02192AFDE57B00AB8AA8 /* UserCell.swift in Sources */,
 				BD9F01F72AFDD84D00AB8AA8 /* ContentView.swift in Sources */,
