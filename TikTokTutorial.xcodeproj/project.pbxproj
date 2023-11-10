@@ -14,6 +14,8 @@
 		BD9F02132AFDDA5800AB8AA8 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02122AFDDA5800AB8AA8 /* MainTabView.swift */; };
 		BD9F02152AFDE01B00AB8AA8 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02142AFDE01B00AB8AA8 /* FeedView.swift */; };
 		BD9F02172AFDE16400AB8AA8 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02162AFDE16400AB8AA8 /* FeedCell.swift */; };
+		BD9F02192AFDE57B00AB8AA8 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02182AFDE57B00AB8AA8 /* UserCell.swift */; };
+		BD9F021C2AFDE58B00AB8AA8 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F021B2AFDE58B00AB8AA8 /* ExploreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		BD9F02122AFDDA5800AB8AA8 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		BD9F02142AFDE01B00AB8AA8 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		BD9F02162AFDE16400AB8AA8 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		BD9F02182AFDE57B00AB8AA8 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		BD9F021B2AFDE58B00AB8AA8 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 		BD9F020A2AFDD97700AB8AA8 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				BD9F02182AFDE57B00AB8AA8 /* UserCell.swift */,
+				BD9F021B2AFDE58B00AB8AA8 /* ExploreView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -274,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9F021C2AFDE58B00AB8AA8 /* ExploreView.swift in Sources */,
 				BD9F02152AFDE01B00AB8AA8 /* FeedView.swift in Sources */,
 				BD9F02172AFDE16400AB8AA8 /* FeedCell.swift in Sources */,
+				BD9F02192AFDE57B00AB8AA8 /* UserCell.swift in Sources */,
 				BD9F01F72AFDD84D00AB8AA8 /* ContentView.swift in Sources */,
 				BD9F01F52AFDD84D00AB8AA8 /* TikTokTutorialApp.swift in Sources */,
 				BD9F02132AFDDA5800AB8AA8 /* MainTabView.swift in Sources */,
