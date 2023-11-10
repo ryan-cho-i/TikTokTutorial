@@ -18,6 +18,10 @@
 		BD9F021C2AFDE58B00AB8AA8 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F021B2AFDE58B00AB8AA8 /* ExploreView.swift */; };
 		BD9F021E2AFDE89500AB8AA8 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F021D2AFDE89500AB8AA8 /* NotificationsView.swift */; };
 		BD9F02202AFDE8A900AB8AA8 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F021F2AFDE8A900AB8AA8 /* NotificationCell.swift */; };
+		BD9F02222AFDEBE600AB8AA8 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02212AFDEBE600AB8AA8 /* CurrentUserProfileView.swift */; };
+		BD9F02242AFDEC6300AB8AA8 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02232AFDEC6300AB8AA8 /* PostGridView.swift */; };
+		BD9F02262AFDEC7100AB8AA8 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F02252AFDEC7100AB8AA8 /* ProfileHeaderView.swift */; };
+		BD9F022B2AFDEE5400AB8AA8 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9F022A2AFDEE5400AB8AA8 /* UserStatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		BD9F021B2AFDE58B00AB8AA8 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		BD9F021D2AFDE89500AB8AA8 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		BD9F021F2AFDE8A900AB8AA8 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		BD9F02212AFDEBE600AB8AA8 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		BD9F02232AFDEC6300AB8AA8 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		BD9F02252AFDEC7100AB8AA8 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		BD9F022A2AFDEE5400AB8AA8 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +181,8 @@
 		BD9F020C2AFDD97D00AB8AA8 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BD9F02292AFDEE4300AB8AA8 /* View */,
+				BD9F02272AFDEE2700AB8AA8 /* Components */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -214,6 +224,24 @@
 				BD9F02162AFDE16400AB8AA8 /* FeedCell.swift */,
 			);
 			path = Feed;
+			sourceTree = "<group>";
+		};
+		BD9F02272AFDEE2700AB8AA8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F02252AFDEC7100AB8AA8 /* ProfileHeaderView.swift */,
+				BD9F02232AFDEC6300AB8AA8 /* PostGridView.swift */,
+				BD9F022A2AFDEE5400AB8AA8 /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BD9F02292AFDEE4300AB8AA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F02212AFDEBE600AB8AA8 /* CurrentUserProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,11 +316,15 @@
 			files = (
 				BD9F021C2AFDE58B00AB8AA8 /* ExploreView.swift in Sources */,
 				BD9F02202AFDE8A900AB8AA8 /* NotificationCell.swift in Sources */,
+				BD9F02242AFDEC6300AB8AA8 /* PostGridView.swift in Sources */,
+				BD9F022B2AFDEE5400AB8AA8 /* UserStatView.swift in Sources */,
 				BD9F02152AFDE01B00AB8AA8 /* FeedView.swift in Sources */,
 				BD9F02172AFDE16400AB8AA8 /* FeedCell.swift in Sources */,
 				BD9F02192AFDE57B00AB8AA8 /* UserCell.swift in Sources */,
 				BD9F01F72AFDD84D00AB8AA8 /* ContentView.swift in Sources */,
+				BD9F02262AFDEC7100AB8AA8 /* ProfileHeaderView.swift in Sources */,
 				BD9F01F52AFDD84D00AB8AA8 /* TikTokTutorialApp.swift in Sources */,
+				BD9F02222AFDEBE600AB8AA8 /* CurrentUserProfileView.swift in Sources */,
 				BD9F02132AFDDA5800AB8AA8 /* MainTabView.swift in Sources */,
 				BD9F021E2AFDE89500AB8AA8 /* NotificationsView.swift in Sources */,
 			);

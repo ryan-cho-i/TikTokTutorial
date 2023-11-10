@@ -53,7 +53,7 @@ struct MainTabView: View {
                 .tag(3)
             
             
-            Text("Profile")
+            CurrentUserProfileView()
                 .tabItem {
                     VStack {
                         Image(systemName: selectedTab == 4 ? "person.fill" : "person")
